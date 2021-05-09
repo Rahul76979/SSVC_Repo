@@ -1,0 +1,9 @@
+<ng-container *ngIf="showHome()">
+    <button (click)="showHome()"><p>Welcome to Shree Siddhi Vinayak Caterers</p></button>
+</ng-container>
+<ng-container *ngIf="showHome()">
+    <app-header></app-header>
+</ng-container>
+
+<!-- Routed view goes here using (router-outlet) -->
+<router-outlet></router-outlet>
