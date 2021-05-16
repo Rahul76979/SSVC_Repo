@@ -1,2 +1,89 @@
+<!-- You can now use your library component in app.component.html -->
+<!-- <ngx-slick-carousel class="carousel" 
+#slickModal="slick-carousel" 
+[config]="slideConfig">
+<div ngxSlickItem *ngFor="let slide of slides" class="slide">
+<img src="{{ slide.img }}" alt="" width="100%">
+</div>
+</ngx-slick-carousel> -->
 
+<mdb-carousel class="carousel slide carousel-fade" [animation]="'fade'" >
+    <mdb-carousel-item>
+      <div class="view w-100">
+        <img class="d-block w-100" src="../../assets/Slider_Image_1.jpg" alt="First slide">
+        <!-- <div class="mask rgba-black-light waves-light" mdbWavesEffect></div> -->
+      </div>
+      <div class="carousel-caption">
+        <h3 class="h3-responsive">Light mask</h3>
+        <p>First text</p>
+      </div>
+    </mdb-carousel-item>
+    <mdb-carousel-item>
+      <div class="view w-100">
+        <img class="d-block w-100" src="../../assets/Slider_Image_2.jpg" alt="Second slide">
+        <!-- <div class="mask rgba-black-strong waves-light" mdbWavesEffect></div> -->
+      </div>
+      <div class="carousel-caption">
+        <h3 class="h3-responsive">Strong mask</h3>
+        <p>Secondary text</p>
+      </div>
+    </mdb-carousel-item>
+    <mdb-carousel-item>
+      <div class="view w-100">
+        <img class="d-block w-100" src="../../assets/Image_1.jpg" alt="Third slide">
+        <!-- <div class="mask rgba-black-slight waves-light" mdbWavesEffect></div> -->
+      </div>
+      <div class="carousel-caption">
+        <h3 class="h3-responsive">Slight mask</h3>
+        <p>Third text</p>
+      </div>
+    </mdb-carousel-item>
+  </mdb-carousel>
+  <!-- Slider Ends -->
+<!-- ******************************************************************************************** -->
+<div style="background-image: url('../../assets/Image_3.jpg');">  
+<!-- Card Starts Here -->
+  <div class="row margin-top margin-left">
+    <div class="col-md-4">
+      <mdb-card cascade="true" wider="true">
+        <div class="view view-cascade overlay waves-light " mdbWavesEffect>
+          <mdb-card-img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(147).jpg"></mdb-card-img>
+          <a>
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+        <mdb-card-body cascade="true" class="text-center">
+          <h5 class="pink-text">
+            <mdb-icon fas icon="utensils"></mdb-icon> Culinary</h5>
+          <h4 class="card-title">Cheat day inspirations</h4>
+          <mdb-card-text>
+            Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque laudantium, totam rem
+            aperiam.
+          </mdb-card-text>
+          <a mdbBtn color="unique" class="waves-light" mdbWavesEffect>Button</a>
+        </mdb-card-body>
+      </mdb-card>
+    </div>
 
+    <div class="col-md-4">
+        <mdb-card cascade="true" wider="true">
+          <div class="view view-cascade overlay waves-light " mdbWavesEffect>
+            <mdb-card-img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(147).jpg"></mdb-card-img>
+            <a>
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <mdb-card-body cascade="true" class="text-center">
+            <h5 class="pink-text">
+              <mdb-icon fas icon="utensils"></mdb-icon> Culinary</h5>
+            <h4 class="card-title">Cheat day inspirations</h4>
+            <mdb-card-text>
+              Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque laudantium, totam rem
+              aperiam.
+            </mdb-card-text>
+            <a mdbBtn color="unique" class="waves-light" mdbWavesEffect>Button</a>
+          </mdb-card-body>
+        </mdb-card>
+      </div>
+  </div>
+</div>
