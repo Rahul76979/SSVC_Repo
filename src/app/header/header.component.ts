@@ -12,4 +12,10 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  // slides = [
+  //   {img: "../../assets/Slider_Image_1.jpg"},
+  //   {img: "../../assets/Slider_Image_2.jpg"}
+  // ];
+  // slideConfig = {"slidesToShow": 1, "slidesToScroll": 1 , "autoplay":true , "autoplaySpeed":4000};
+
 }

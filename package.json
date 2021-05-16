@@ -12,17 +12,31 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "~10.1.4",
+    "@angular/cdk": "^10.2.7",
     "@angular/common": "~10.1.4",
     "@angular/compiler": "~10.1.4",
     "@angular/core": "~10.1.4",
     "@angular/forms": "~10.1.4",
+    "@angular/material": "^10.2.7",
     "@angular/platform-browser": "~10.1.4",
     "@angular/platform-browser-dynamic": "~10.1.4",
     "@angular/router": "~10.1.4",
+<<<<<<< HEAD
     "bootstrap": "^5.0.1",
+=======
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "@types/chart.js": "^2.9.32",
+    "angular-bootstrap-md": "^11.1.0",
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.0.0",
+    "chart.js": "^2.5.0",
+    "hammerjs": "^2.0.8",
+>>>>>>> 7037c9eca3f9d60c31b5942a4eef3edbfa007e31
     "jquery": "^3.6.0",
     "ngx-bootstrap": "^6.2.0",
+    "ngx-slick-carousel": "^0.5.1",
     "rxjs": "~6.6.0",
+    "slick-carousel": "^1.8.1",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
   },
