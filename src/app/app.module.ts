@@ -9,6 +9,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 // import { SlickCarouselModule  } from "ngx-slick-carousel";
 import { MDBBootstrapModule } from "angular-bootstrap-md";
 import { FooterComponent } from './footer/footer.component';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 
 
@@ -17,7 +20,10 @@ import { FooterComponent } from './footer/footer.component';
     AppComponent,
     routingComponents,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    AboutUsComponent,
+    ContactUsComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,
